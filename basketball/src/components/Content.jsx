@@ -37,7 +37,7 @@ const Content = () => {
       };
   
       // Fetch data every 30 seconds (adjust as needed)
-      const intervalId = setInterval(fetchData, 30000);
+      const intervalId = setInterval(fetchData, 300);
   
       // Fetch data immediately when the component mounts
       fetchData();
