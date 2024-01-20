@@ -3,7 +3,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: url(./img/nba.jpg);
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     color: #fff;
     margin: 0;
@@ -51,7 +51,7 @@ body {
   }
   
   .team-card img {
-    max-width: 100%;
+    max-width: 90%;
     border-radius: 10px;
     margin-bottom: 15px;
   }
