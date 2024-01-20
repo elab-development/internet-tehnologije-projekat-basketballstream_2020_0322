@@ -29,7 +29,9 @@ const Content2 = () => {
             <img src={team.team.logos[0].href} alt={team.team.displayName} />
             <h2>{team.team.displayName}</h2>
             <p>{team.team.location}</p>
-            <a href={team.team.links[2].href}>Statistika</a>
+            <a href={team.team.links[2].href}>Team Statistics</a>
+            <br></br>
+            <a href={team.team.links[1].href}>Roster</a>
             {/* Add more information or links as needed */}
           </li>
         ))}
