@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import "../drugastrana";
+import "../App2.css";
 
 const Content2 = () => {
   const [teams, setTeams] = useState([]);
@@ -28,6 +29,7 @@ const Content2 = () => {
             <img src={team.team.logos[0].href} alt={team.team.displayName} />
             <h2>{team.team.displayName}</h2>
             <p>{team.team.location}</p>
+            <a href={team.team.links[2].href}>Statistika</a>
             {/* Add more information or links as needed */}
           </li>
         ))}
