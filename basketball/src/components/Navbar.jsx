@@ -11,9 +11,9 @@ const Navbar = () => {
   // Render the Navbar only if shouldShowNavbar is true
   return shouldShowNavbar ? (
     <div className="navbar">
-      <h1>
-        <Link to="/drugastrana">Basketball videos 🏀</Link>
-      </h1>
+      <p>
+        <Link to="/drugastrana">🏀Teams🏀</Link>
+      </p>
     </div>
   ) : null;
 };
