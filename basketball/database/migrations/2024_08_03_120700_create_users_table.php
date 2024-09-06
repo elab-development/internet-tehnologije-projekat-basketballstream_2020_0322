@@ -15,11 +15,12 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('points');
-            $table->string('asists');
+            $table->string('assists');
             $table->string('rebounds');
             $table->string('three_pt');
             $table->string('two_pt');
             $table->string('team');
+            
             $table->timestamps();
         });
     }
